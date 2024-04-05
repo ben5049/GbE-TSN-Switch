@@ -12,4 +12,7 @@
   (lib (name "TJA1055T_3_2Z")(type "KiCad")(uri "${KIPRJMOD} /../component_library/switch_symbols/TJA1055T_3_2Z.kicad_sym")(options "")(descr ""))
   (lib (name "76825-0004")(type "KiCad")(uri "${KIPRJMOD} /../component_library/switch_symbols/76825-0004.kicad_sym")(options "")(descr ""))
   (lib (name "LMR34206SC5QRNXRQ1")(type "KiCad")(uri "${KIPRJMOD} /../component_library/switch_symbols/LMR34206SC5QRNXRQ1.kicad_sym")(options "")(descr ""))
+  (lib (name "M24256X-FCU6T_VF")(type "KiCad")(uri "${KIPRJMOD} /../component_library/switch_symbols/M24256X-FCU6T_VF.kicad_sym")(options "")(descr ""))
+  (lib (name "PJ-002AH")(type "KiCad")(uri "${KIPRJMOD} /../component_library/switch_symbols/PJ-002AH.kicad_sym")(options "")(descr ""))
+  (lib (name "DMTH6016LPSQ-13")(type "KiCad")(uri "${KIPRJMOD} /../component_library/switch_symbols/DMTH6016LPSQ-13.kicad_sym")(options "")(descr ""))
 )

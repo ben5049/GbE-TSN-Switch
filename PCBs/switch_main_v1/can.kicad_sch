@@ -373,6 +373,16 @@
 			)
 		)
 	)
+	(text "PESD1CAN"
+		(exclude_from_sim no)
+		(at 119.38 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c808985b-4d44-406b-880a-4bfbe7abcf5d")
+	)
 	(text "ESD protection, termination, common mode choke"
 		(exclude_from_sim no)
 		(at 152.4 124.46 0)
@@ -385,13 +395,13 @@
 	)
 	(symbol
 		(lib_id "TJA1055T_3_2Z:TJA1055T_3_2Z")
-		(at 139.7 93.98 0)
+		(at 170.18 93.98 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "24f6e932-7b50-4ebd-b545-d15e3907708f")
 		(property "Reference" "IC1001"
 			(at 154.94 86.36 0)
@@ -410,7 +420,7 @@
 			)
 		)
 		(property "Footprint" "SOIC127P600X175-14N"
-			(at 166.37 188.9 0)
+			(at 143.51 188.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -420,7 +430,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/TJA1055.pdf"
-			(at 166.37 288.9 0)
+			(at 143.51 288.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -430,7 +440,7 @@
 			)
 		)
 		(property "Description" "CAN Interface IC Enhanced fault-tolerant CAN transceiver"
-			(at 139.7 93.98 0)
+			(at 170.18 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -439,7 +449,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 166.37 488.9 0)
+			(at 143.51 488.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -449,7 +459,7 @@
 			)
 		)
 		(property "Mouser Part Number" "771-TJA1055T/3/2Z"
-			(at 166.37 588.9 0)
+			(at 143.51 588.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -459,7 +469,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/TJA1055T-3-2Z?qs=qSfuJ%252Bfl%2Fd73Y%2FIsMw3Ayg%3D%3D"
-			(at 166.37 688.9 0)
+			(at 143.51 688.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -469,7 +479,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "NXP"
-			(at 166.37 788.9 0)
+			(at 143.51 788.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -479,7 +489,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TJA1055T/3/2Z"
-			(at 166.37 888.9 0)
+			(at 143.51 888.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)

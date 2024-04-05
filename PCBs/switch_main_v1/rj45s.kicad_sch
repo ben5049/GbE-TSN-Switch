@@ -2741,6 +2741,16 @@
 		)
 		(uuid "ffee2ef6-65cd-4c66-b3f3-353bb914ddf0")
 	)
+	(text "CONSULT RICK ON GROUNDING THE SHIELD"
+		(exclude_from_sim no)
+		(at 185.42 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "98ab6504-25af-45dd-925a-c88a521aaf1c")
+	)
 	(symbol
 		(lib_id "TMJG46945AENL:TMJG46945AENL")
 		(at 132.08 27.94 0)

@@ -1768,7 +1768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c2c738d-bd35-4f3c-88cc-d51e3eca5e99")
-		(property "Reference" "U401"
+		(property "Reference" "U403"
 			(at 187.96 35.56 0)
 			(effects
 				(font
@@ -1891,7 +1891,7 @@
 		(instances
 			(project "switch_main_v1"
 				(path "/4638d344-96ef-43ce-a37a-2df37185796e/ef57f6d4-7976-4470-9a64-870882b874ba"
-					(reference "U401")
+					(reference "U403")
 					(unit 1)
 				)
 			)
@@ -1907,7 +1907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ff7079d-e56f-4e02-b2ad-86fe20b87dfc")
-		(property "Reference" "U402"
+		(property "Reference" "U401"
 			(at 81.28 35.56 0)
 			(effects
 				(font
@@ -2050,7 +2050,7 @@
 		(instances
 			(project "switch_main_v1"
 				(path "/4638d344-96ef-43ce-a37a-2df37185796e/ef57f6d4-7976-4470-9a64-870882b874ba"
-					(reference "U402")
+					(reference "U401")
 					(unit 1)
 				)
 			)
@@ -2132,7 +2132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d86f98fb-5248-4f03-93eb-dc6137a6d812")
-		(property "Reference" "U403"
+		(property "Reference" "U402"
 			(at 91.44 129.54 0)
 			(effects
 				(font
@@ -2214,7 +2214,7 @@
 		(instances
 			(project "switch_main_v1"
 				(path "/4638d344-96ef-43ce-a37a-2df37185796e/ef57f6d4-7976-4470-9a64-870882b874ba"
-					(reference "U403")
+					(reference "U402")
 					(unit 1)
 				)
 			)
