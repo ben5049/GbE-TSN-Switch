@@ -375,7 +375,7 @@
 	)
 	(text "AWCU00201212670M02\n(Choose specific one)"
 		(exclude_from_sim no)
-		(at 119.38 111.76 0)
+		(at 73.66 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -385,7 +385,7 @@
 	)
 	(text "PESD2CANFD24V-T"
 		(exclude_from_sim no)
-		(at 119.38 99.06 0)
+		(at 73.66 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)

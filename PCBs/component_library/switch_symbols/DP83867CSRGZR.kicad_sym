@@ -577,7 +577,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 -27.94 0)
+				(at -27.94 -20.32 0)
 				(length 5.08)
 				(name "RX_D0/SGMII_COP"
 					(effects
@@ -595,7 +595,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 -25.4 0)
+				(at -27.94 -22.86 0)
 				(length 5.08)
 				(name "RX_D1/SGMII_CON"
 					(effects
@@ -613,7 +613,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 -22.86 0)
+				(at -27.94 -25.4 0)
 				(length 5.08)
 				(name "RX_D2/SGMII_SOP"
 					(effects
@@ -631,7 +631,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 -20.32 0)
+				(at -27.94 -27.94 0)
 				(length 5.08)
 				(name "RX_D3/SGMII_SON"
 					(effects
