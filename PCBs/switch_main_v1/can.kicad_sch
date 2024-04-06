@@ -373,7 +373,17 @@
 			)
 		)
 	)
-	(text "PESD1CAN"
+	(text "AWCU00201212670M02\n(Choose specific one)"
+		(exclude_from_sim no)
+		(at 119.38 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2c290182-d861-41a0-9faa-e4e87d9351c0")
+	)
+	(text "PESD2CANFD24V-T"
 		(exclude_from_sim no)
 		(at 119.38 99.06 0)
 		(effects
