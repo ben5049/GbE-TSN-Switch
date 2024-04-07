@@ -199,7 +199,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 -43.18 0)
+				(at -27.94 -58.42 0)
 				(length 5.08)
 				(name "XO"
 					(effects
@@ -217,7 +217,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 -40.64 0)
+				(at -27.94 -55.88 0)
 				(length 5.08)
 				(name "XI"
 					(effects
@@ -325,7 +325,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 -50.8 0)
+				(at -27.94 -40.64 0)
 				(length 5.08)
 				(name "JTAG_CLK"
 					(effects
@@ -343,7 +343,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 -58.42 0)
+				(at -27.94 -48.26 0)
 				(length 5.08)
 				(name "JTAG_TDO"
 					(effects
@@ -361,7 +361,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 -55.88 0)
+				(at -27.94 -45.72 0)
 				(length 5.08)
 				(name "JTAG_TMS"
 					(effects
@@ -379,7 +379,7 @@
 				)
 			)
 			(pin passive line
-				(at -27.94 -53.34 0)
+				(at -27.94 -43.18 0)
 				(length 5.08)
 				(name "JTAG_TDI"
 					(effects

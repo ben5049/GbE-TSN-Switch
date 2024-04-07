@@ -7,6 +7,7 @@
 	(title_block
 		(date "2024-04-06")
 		(rev "0.0.0")
+		(company "Ben Smith")
 	)
 	(lib_symbols
 		(symbol "TJA1055T_3_2Z:TJA1055T_3_2Z"

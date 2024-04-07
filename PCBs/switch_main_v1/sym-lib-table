@@ -16,4 +16,5 @@
   (lib (name "PJ-002AH")(type "KiCad")(uri "${KIPRJMOD} /../component_library/switch_symbols/PJ-002AH.kicad_sym")(options "")(descr ""))
   (lib (name "DMTH6016LPSQ-13")(type "KiCad")(uri "${KIPRJMOD} /../component_library/switch_symbols/DMTH6016LPSQ-13.kicad_sym")(options "")(descr ""))
   (lib (name "PESD2CANFD24V-TR")(type "KiCad")(uri "${KIPRJMOD} /../component_library/switch_symbols/PESD2CANFD24V-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "ESD8708MUTAG")(type "KiCad")(uri "${KIPRJMOD} /../component_library/switch_symbols/ESD8708MUTAG.kicad_sym")(options "")(descr ""))
 )

@@ -1770,7 +1770,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -22.86 -134.62 0)
+				(at -22.86 -137.16 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -1788,7 +1788,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -22.86 -137.16 0)
+				(at -22.86 -139.7 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -1806,7 +1806,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -22.86 -139.7 0)
+				(at -22.86 -142.24 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -1824,7 +1824,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -22.86 -142.24 0)
+				(at -22.86 -144.78 0)
 				(length 7.62)
 				(name "GND"
 					(effects
