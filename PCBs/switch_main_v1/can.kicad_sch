@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "8d4e4c5d-ca40-49e4-b658-d194afcbb694")
 	(paper "A4")
+	(title_block
+		(date "2024-04-06")
+		(rev "0.0.0")
+	)
 	(lib_symbols
 		(symbol "TJA1055T_3_2Z:TJA1055T_3_2Z"
 			(exclude_from_sim no)

@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "68aaccd7-2be4-4598-bea6-53ae59b44a00")
 	(paper "A4")
+	(title_block
+		(date "2024-04-06")
+		(rev "0.0.0")
+	)
 	(lib_symbols
 		(symbol "M24256X-FCU6T_VF:M24256X-FCU6T_VF"
 			(exclude_from_sim no)
@@ -2787,6 +2791,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 111.76) (xy 251.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b840e5-9c81-46e5-9d8e-d092920a1f1e")
+	)
+	(wire
+		(pts
 			(xy 154.94 142.24) (xy 157.48 142.24)
 		)
 		(stroke
@@ -2996,6 +3010,29 @@
 			(justify right bottom)
 		)
 		(uuid "f3531cbf-8b74-4232-8f15-9e0e61ac1061")
+	)
+	(label "5V0_EN"
+		(at 241.3 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f69e4667-9b83-4880-8ce1-68f7fbd6978e")
+	)
+	(hierarchical_label "5V0_EN"
+		(shape output)
+		(at 238.76 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05c150d5-f4dc-419a-9d3d-a9d1ada20db6")
 	)
 	(hierarchical_label "MCO1"
 		(shape output)
