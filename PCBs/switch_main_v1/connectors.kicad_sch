@@ -4309,6 +4309,16 @@
 		)
 		(uuid "2cd2d253-1ce6-48ea-9455-c042a41606d3")
 	)
+	(text "SRF7035A-301Y"
+		(exclude_from_sim no)
+		(at 160.02 35.56 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "b3516218-f4a6-4e24-a313-ae755da019de")
+	)
 	(text "ESD Protection"
 		(exclude_from_sim no)
 		(at 91.44 109.22 0)
@@ -4384,6 +4394,7 @@
 	)
 	(label "UART.TX"
 		(at 78.74 154.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4460,6 +4471,7 @@
 	)
 	(label "UART.RX"
 		(at 78.74 152.4 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
