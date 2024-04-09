@@ -353,6 +353,12 @@
 		(uuid "3a7799e8-d455-46f6-8698-4b83f2c454d0")
 	)
 	(junction
+		(at 218.44 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a2c63ed-a547-4cd5-a87c-ac058b88527c")
+	)
+	(junction
 		(at 27.94 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -363,12 +369,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bdbb14a-ac31-440b-8443-56141df0eb12")
-	)
-	(junction
-		(at 162.56 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8174fd74-1b3f-43f7-82a1-3bdfb17a960d")
 	)
 	(junction
 		(at 162.56 104.14)
@@ -430,6 +430,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 114.3) (xy 162.56 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c803b13-e292-49bf-b180-9773f012980d")
+	)
+	(wire
+		(pts
 			(xy 160.02 99.06) (xy 157.48 99.06)
 		)
 		(stroke
@@ -437,6 +447,16 @@
 			(type default)
 		)
 		(uuid "0e1792a1-9899-4b4e-b42c-f24b2bbf9272")
+	)
+	(bus
+		(pts
+			(xy 104.14 137.16) (xy 132.08 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1200f3a2-336d-4bb0-bc1e-c35164ebb344")
 	)
 	(bus
 		(pts
@@ -547,6 +567,16 @@
 			(type default)
 		)
 		(uuid "42045b66-bca7-4be8-9162-e2d2361c9a00")
+	)
+	(wire
+		(pts
+			(xy 129.54 147.32) (xy 129.54 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4375f25b-c7f4-478a-a276-bac457cbba0d")
 	)
 	(wire
 		(pts
@@ -710,7 +740,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 114.3) (xy 162.56 114.3)
+			(xy 228.6 114.3) (xy 218.44 114.3)
 		)
 		(stroke
 			(width 0)
@@ -737,6 +767,16 @@
 			(type default)
 		)
 		(uuid "7ed2294d-9f14-43bc-a333-ebbbca7c17af")
+	)
+	(wire
+		(pts
+			(xy 208.28 101.6) (xy 218.44 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80553fc7-21d0-4d68-894a-e8b6b8b9694e")
 	)
 	(wire
 		(pts
@@ -850,6 +890,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 160.02) (xy 129.54 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9401ea46-165d-4bbe-811d-8df68d175403")
+	)
+	(wire
+		(pts
 			(xy 160.02 76.2) (xy 157.48 76.2)
 		)
 		(stroke
@@ -857,6 +907,16 @@
 			(type default)
 		)
 		(uuid "94578759-ffce-4b75-b0d1-78d4efc2efa4")
+	)
+	(bus
+		(pts
+			(xy 157.48 137.16) (xy 228.6 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94be398b-9ad2-4959-8033-3d3a9f5e26e9")
 	)
 	(wire
 		(pts
@@ -890,13 +950,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 35.56) (xy 182.88 35.56)
+			(xy 129.54 147.32) (xy 132.08 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a73edab6-9691-40f5-aff7-d4422cdbb9b3")
+		(uuid "ae892349-a695-43c8-a289-9f6e911ee046")
 	)
 	(wire
 		(pts
@@ -1007,6 +1067,16 @@
 			(type default)
 		)
 		(uuid "f1087702-6878-4c71-a803-5435e9e16576")
+	)
+	(wire
+		(pts
+			(xy 218.44 101.6) (xy 218.44 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33fbf20-9150-42cc-9e95-33b5fcf51de1")
 	)
 	(wire
 		(pts
@@ -1291,6 +1361,17 @@
 		)
 		(uuid "55d09559-5a79-4e8d-8d04-1a80a4ed9e53")
 	)
+	(label "CAN{CAN}"
+		(at 187.96 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56732d7c-b73a-496c-b459-f8c353774ad3")
+	)
 	(label "LED_Y_3"
 		(at 106.68 86.36 0)
 		(fields_autoplaced yes)
@@ -1323,6 +1404,17 @@
 			(justify left bottom)
 		)
 		(uuid "5e8aa7c8-5ae8-4c09-8ee6-fddc91ea67f8")
+	)
+	(label "FTCAN{FTCAN}"
+		(at 111.76 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d02c0e4-6a29-4a67-9d44-daf9e3cffa73")
 	)
 	(label "SWITCH_CLK"
 		(at 213.36 35.56 0)
@@ -1367,6 +1459,17 @@
 			(justify left bottom)
 		)
 		(uuid "9c32bfcf-5b25-4281-bb38-1bd142796111")
+	)
+	(label "5V0_EN"
+		(at 129.54 157.48 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9de1c835-0ca8-4c73-af97-666e4c5c2db7")
 	)
 	(label "LED_G_3"
 		(at 106.68 83.82 0)
@@ -2169,12 +2272,12 @@
 			(uuid "adad35ba-469a-4a59-9e49-34ea416ac099")
 		)
 		(pin "RST" input
-			(at 182.88 35.56 180)
+			(at 208.28 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "3ae6e0ba-d01f-488e-b503-4077fc27dc26")
 		)
@@ -2535,6 +2638,36 @@
 				(justify left top)
 			)
 		)
+		(pin "5V0_EN" output
+			(at 132.08 147.32 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "301639e3-2a62-46c7-bb1c-493b6faed953")
+		)
+		(pin "CAN" bidirectional
+			(at 157.48 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "90ff0d2f-3479-4614-b776-c1ee39191502")
+		)
+		(pin "FTCAN" bidirectional
+			(at 132.08 137.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0e9869d7-f4f5-4e02-8930-84ca5eb98021")
+		)
 		(instances
 			(project "switch_main_v1"
 				(path "/4638d344-96ef-43ce-a37a-2df37185796e"
@@ -2703,16 +2836,6 @@
 				(justify left top)
 			)
 		)
-		(pin "CAN" bidirectional
-			(at 104.14 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e25106fa-5fad-4541-a01a-53a4cc30f5b5")
-		)
 		(pin "UART" bidirectional
 			(at 104.14 127 0)
 			(effects
@@ -2742,6 +2865,16 @@
 				(justify right)
 			)
 			(uuid "87caa31d-cb2a-4077-b62a-0f72324d49cb")
+		)
+		(pin "FTCAN" bidirectional
+			(at 104.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7f881465-3429-49a7-959c-6ad99c3edc4a")
 		)
 		(instances
 			(project "switch_main_v1"
@@ -2822,16 +2955,6 @@
 			)
 			(uuid "96e71e53-168c-4126-8341-8da16ae16051")
 		)
-		(pin "5V0_EN" output
-			(at 228.6 147.32 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a6c92a84-070d-41dd-b64c-2e3daa15ea9a")
-		)
 		(pin "ETHERNET_RST" output
 			(at 228.6 114.3 180)
 			(effects
@@ -2892,6 +3015,16 @@
 			)
 			(uuid "841908b8-7a24-4c4e-af3f-6a39e0bc903c")
 		)
+		(pin "CAN" bidirectional
+			(at 228.6 137.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8212eae0-20b4-400a-bb49-35c3f26fb754")
+		)
 		(instances
 			(project "switch_main_v1"
 				(path "/4638d344-96ef-43ce-a37a-2df37185796e"
@@ -2932,12 +3065,12 @@
 			)
 		)
 		(pin "5V0_EN" input
-			(at 157.48 162.56 0)
+			(at 132.08 160.02 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "304a5d87-7cd2-4dfb-a27b-b10176efadbf")
 		)

@@ -3,7 +3,6 @@
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
 	(symbol "PESD2CANFD24V-TR"
-		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -25,7 +24,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "switch_footprints:SOT95P230X110-3N"
+		(property "Footprint" "SOT95P230X110-3N"
 			(at 19.05 -94.92 0)
 			(effects
 				(font
