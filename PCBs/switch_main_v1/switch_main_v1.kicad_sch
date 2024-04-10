@@ -660,6 +660,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 162.56) (xy 132.08 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64584e69-e691-4507-85cc-e8d7e65a4327")
+	)
+	(wire
+		(pts
 			(xy 104.14 63.5) (xy 132.08 63.5)
 		)
 		(stroke
@@ -2876,6 +2886,16 @@
 			)
 			(uuid "7f881465-3429-49a7-959c-6ad99c3edc4a")
 		)
+		(pin "VIN_PROTECTED" output
+			(at 104.14 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5682e8f6-83b0-46ef-9c83-669ba79f226f")
+		)
 		(instances
 			(project "switch_main_v1"
 				(path "/4638d344-96ef-43ce-a37a-2df37185796e"
@@ -3073,6 +3093,26 @@
 				(justify left)
 			)
 			(uuid "304a5d87-7cd2-4dfb-a27b-b10176efadbf")
+		)
+		(pin "VIN_PROTECTED" input
+			(at 132.08 162.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "253cd399-aea1-402b-81e4-4c1a23d963fb")
+		)
+		(pin "PG" output
+			(at 157.48 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b9982e23-385d-499b-afe2-99a1e9144736")
 		)
 		(instances
 			(project "switch_main_v1"

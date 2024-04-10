@@ -562,3 +562,21 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/pinout/Core/S
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-04-07 16:34:43.120
 !MESSAGE Indexed 'pinout' (29 sources, 203 headers) in 7.54 sec: 28,922 declarations; 138,882 references; 2 unresolved inclusions; 120 syntax errors; 1,035 unresolved names (0.61%)
+!SESSION 2024-04-10 20:30:25.178 -----------------------------------------------
+eclipse.buildId=Version 1.15.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-04-10 20:30:36.844
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-04-10 20:30:36.859
+!MESSAGE Log4j2 initialized with config file C:\Users\bens1\OneDrive\Documents\Projects\GbE-TSN-Switch\Firmware\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-04-10 20:30:43.133
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-10 20:38:12.634
+!MESSAGE Indexed 'pinout2' (20 sources, 81 headers) in 2.29 sec: 7,131 declarations; 40,268 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0042%)

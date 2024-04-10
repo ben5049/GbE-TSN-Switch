@@ -3788,126 +3788,6 @@
 				)
 			)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -4111,7 +3991,7 @@
 		(at 238.76 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c9b16c6f-9a46-403c-85d1-14aa62aa21a2")
+		(uuid "f913a369-6007-4de2-a344-0c0cf74043f3")
 	)
 	(no_connect
 		(at 73.66 147.32)
@@ -4197,16 +4077,6 @@
 			(type default)
 		)
 		(uuid "0009b5a3-40ae-481e-aae6-e94db72c9d81")
-	)
-	(wire
-		(pts
-			(xy 238.76 68.58) (xy 238.76 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "014d0f93-c75e-4870-92fa-93b2e42f4059")
 	)
 	(wire
 		(pts
@@ -4870,6 +4740,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 71.12) (xy 243.84 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8a98b23-509f-484e-97a0-24be6fede5b6")
+	)
+	(wire
+		(pts
 			(xy 68.58 96.52) (xy 88.9 96.52)
 		)
 		(stroke
@@ -5212,6 +5092,18 @@
 			(justify left)
 		)
 		(uuid "55de598f-d826-4758-a2e5-c407feeddd0a")
+	)
+	(hierarchical_label "VIN_PROTECTED"
+		(shape output)
+		(at 243.84 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66f66c1e-ac08-4933-bf99-907ac61eeb3e")
 	)
 	(hierarchical_label "RST"
 		(shape output)
@@ -6464,72 +6356,6 @@
 			(project "switch_main_v1"
 				(path "/4638d344-96ef-43ce-a37a-2df37185796e/c12353f3-756b-4e5c-881f-05c4e6fe5abb"
 					(reference "#PWR01107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 238.76 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1f309a3-2ef1-450b-a697-edd646025a36")
-		(property "Reference" "#PWR01102"
-			(at 238.76 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VIN"
-			(at 238.76 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+VIN\""
-			(at 238.76 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3cde6efa-d09a-42b0-a561-c5112be6a413")
-		)
-		(instances
-			(project "switch_main_v1"
-				(path "/4638d344-96ef-43ce-a37a-2df37185796e/c12353f3-756b-4e5c-881f-05c4e6fe5abb"
-					(reference "#PWR01102")
 					(unit 1)
 				)
 			)
