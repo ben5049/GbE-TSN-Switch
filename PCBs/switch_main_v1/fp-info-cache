@@ -1,4 +1,4 @@
-23159249367147683
+23166102688394237
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94801,6 +94801,13 @@ LT8692SIV-PBF
 25
 25
 switch_footprints
+PCM12SMTR
+PCM12SMTR-1
+Switch
+0
+7
+7
+switch_footprints
 QFN50P700X700X100-49N-D
 RGZ0048B
 Integrated Circuit
@@ -94857,12 +94864,33 @@ Inductor
 4
 4
 switch_footprints
+STDC14
+surface-mounted straight pin header, 2x07, 1.27mm pitch, double rows
+Surface mounted pin header SMD 2x07 1.27mm double row
+0
+14
+14
+switch_footprints
+STM32H573IIK3Q
+
+STM32H573IIK3Q 
+0
+201
+201
+switch_footprints
 TMJG46945AENL
 
 ARJM11D7-502-AB-EW2 
 0
 61
 61
+switch_footprints
+TPD4S012DRYR
+TPD4S012DRYR-3
+Integrated Circuit
+0
+6
+6
 switch_footprints
 TPS74901DRCR
 DRC0010J

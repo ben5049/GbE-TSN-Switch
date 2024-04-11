@@ -6594,7 +6594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/122/ECX_2236B2-2400583.pdf"
+		(property "Datasheet" "~"
 			(at 66.04 160.02 0)
 			(effects
 				(font
